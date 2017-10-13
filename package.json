@@ -1,0 +1,26 @@
+{
+  "name": "serverless-microsoft-teams-gitlab-connector",
+  "version": "1.0.0",
+  "description": "Send Gitlab actions to Microsoft Teams chat.",
+  "main": "handler.js",
+  "dependencies": {
+    "botbuilder": "^3.10.1",
+    "restify": "^6.0.1"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svtek/serverless-microsoft-teams-gitlab-connector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svtek/serverless-microsoft-teams-gitlab-connector/issues"
+  },
+  "homepage": "https://github.com/svtek/serverless-microsoft-teams-gitlab-connector#readme"
+}
