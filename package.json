@@ -5,7 +5,9 @@
   "main": "handler.js",
   "dependencies": {
     "botbuilder": "^3.10.1",
-    "restify": "^6.0.1"
+    "lodash": "^4.17.4",
+    "restify": "^6.0.1",
+    "string-humanize": "^1.0.0"
   },
   "devDependencies": {
     "serverless-offline": "^3.16.0"

@@ -5,6 +5,7 @@ var services = require('./services/index')
 
 module.exports.hello = (event, context, callback) => {
   const body = JSON.parse(event.body);
+
   let payload = services(body)
 
   let teamURL = "https://outlook.office.com/MICROSOFT_TEAMS_CONNECTOR_URL"
@@ -13,6 +14,8 @@ module.exports.hello = (event, context, callback) => {
     function (error, response, body) {
       if (!error && response.statusCode == 200) {
           console.log('Success!')
+      } else {
+        console.log(error, body)
       }
     }
   );
