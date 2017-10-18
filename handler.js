@@ -3,22 +3,29 @@
 var request = require('request');
 var services = require('./services/index')
 
+// POST: /events or
+// POST: /events?url=your_team_connector_url
 module.exports.hello = (event, context, callback) => {
   const body = JSON.parse(event.body);
-
   let payload = services(body)
 
-  let teamURL = "https://outlook.office.com/MICROSOFT_TEAMS_CONNECTOR_URL"
+  let preTeamUrl = null
+  if (event['queryStringParameters'] != null)
+    preTeamUrl = event['queryStringParameters']['url']
 
-  request.post(teamURL, { json: payload },
-    function (error, response, body) {
-      if (!error && response.statusCode == 200) {
-          console.log('Success!')
-      } else {
-        console.log(error, body)
+  let teamConnectorURL = preTeamUrl || process.env.TEAMS_CONNECTOR_URL
+
+  if (body.object_kind === 'merge_request' || body.object_kind === 'issue'){
+    request.post(teamConnectorURL, { json: payload },
+      function (error, response, body) {
+        if (!error && response.statusCode == 200) {
+            console.log('Success!: ', body)
+        } else {
+          console.log(error, body)
+        }
       }
-    }
-  );
+    );
+  }
 
   const response = {
     statusCode: 200,

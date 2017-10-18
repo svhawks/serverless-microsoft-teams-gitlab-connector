@@ -65,6 +65,8 @@ functions:
       - http:
           path: events
           method: post
+    environment:
+      TEAMS_CONNECTOR_URL: ${opt:TEAMS_CONNECTOR_URL}
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
 #      - sns: greeter-topic
