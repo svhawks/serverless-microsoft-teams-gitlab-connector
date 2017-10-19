@@ -1,6 +1,8 @@
 # Serverless Microsoft Teams Gitlab Connector
 Easy integration to notify **GitLab** Merge Request and Issues to **Microsoft Teams**.
 
+![](https://raw.githubusercontent.com/svtek/serverless-microsoft-teams-gitlab-connector/master/Screenshot%202017-10-19%2021.07.40.png)
+
 ----------
 Usage
 -------------
