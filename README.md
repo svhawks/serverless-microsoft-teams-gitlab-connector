@@ -35,6 +35,8 @@ In the list, click **Add** for the **Incoming Webhook**.
 ### Step :three:
 Enter the connector name as **GitLab** and upload an icon. Save and copy your connector url (`channel_incoming_webhook_url`).
 
+<br/>
+
 ## GitLab Side
 
 <br/>
@@ -54,7 +56,6 @@ Enable `Issues events`, `Merge Request events` and `SSL Verification` then save 
 
 ![GitLab Webhook](https://www.evernote.com/shard/s672/sh/1778556c-c6ce-41af-bb4c-e526d25a3957/408dad22de893f8df13f7065a220be77/res/cd40ec98-62ac-4004-a3e0-8c3100612dad/integrations.jpg?resizeSmall&width=832 )
 
-<br/>
 <br/>
 <br/>
 
@@ -81,7 +82,9 @@ serverles offline start
 # add `/events` path to output url and paste (https://123456.ngrok.io/events) to GitLab url input.
 ```
 
-### Features
+<br/>
+
+## Features
 
 - [x] Merge Request
 - [x] Issues
