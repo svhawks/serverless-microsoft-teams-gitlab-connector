@@ -10,7 +10,7 @@ Easy integration to notify **GitLab** Merge Request and Issues to **Microsoft Te
 <br/>
 <br/>
 
-<h2 align="center">Usage</h2>
+<h2 align="center">How to use</h2>
 
 
 ## Microsoft Teams Side
