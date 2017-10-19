@@ -20,6 +20,7 @@ In Microsoft Teams, choose the **More options (⋯)** button next to the channel
 
 ![enter image description here](https://i-msdn.sec.s-msft.com/en-us/microsoft-teams/images/connectors/teams-context-menu.png)
 
+<br/>
 
 ### Step :two:
 In the list, click **Add** for the **Incoming Webhook**.
