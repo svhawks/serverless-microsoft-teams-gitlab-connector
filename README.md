@@ -24,7 +24,7 @@ Enter the connector name as **GitLab** and upload an icon. Save and copy your co
 ***Step 1:**
 Go to your repo settings on GitLab and click `Integrations` section from left bar.
 Copy this link:
-https://0xjjw6j039.execute-api.us-east-1.amazonaws.com/?url=channel_incoming_webhook_url
+https://0xjjw6j039.execute-api.us-east-1.amazonaws.com/prod/events?url=channel_incoming_webhook_url
 and change `channel_incoming_webhook_url` part with your teams url.
 Then paste it to url input area on GitLab.
 
