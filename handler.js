@@ -3,6 +3,7 @@
 var request = require('request');
 var services = require('./services/index')
 
+
 // POST: /events or
 // POST: /events?url=your_team_connector_url
 module.exports.hello = (event, context, callback) => {
@@ -15,7 +16,7 @@ module.exports.hello = (event, context, callback) => {
 
   let teamConnectorURL = preTeamUrl || process.env.TEAMS_CONNECTOR_URL
 
-  if (body.object_kind === 'merge_request' || body.object_kind === 'issue'){
+  if (payload){
     request.post(teamConnectorURL, { json: payload },
       function (error, response, body) {
         if (!error && response.statusCode == 200) {
