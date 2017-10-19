@@ -15,8 +15,6 @@ Easy integration to notify **GitLab** Merge Request and Issues to **Microsoft Te
 
 ## Microsoft Teams Side
 
-<br/>
-
 ### Step :one:
 In Microsoft Teams, choose the **More options (⋯)** button next to the channel name in the list of channels and then choose **Connectors**.
 
