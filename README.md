@@ -15,29 +15,41 @@ Easy integration to notify **GitLab** Merge Request and Issues to **Microsoft Te
 
 ## Microsoft Teams Side
 
-### Step 1
+<br/>
+
+### Step :one:
 In Microsoft Teams, choose the **More options (⋯)** button next to the channel name in the list of channels and then choose **Connectors**.
 
 ![enter image description here](https://i-msdn.sec.s-msft.com/en-us/microsoft-teams/images/connectors/teams-context-menu.png)
 
+<br/>
+<br/>
 
-### Step 2
+### Step :two:
 In the list, click **Add** for the **Incoming Webhook**.
 ![enter image description here](https://www.evernote.com/shard/s672/sh/fe974184-71d0-4ffc-bc30-2a6669d3d328/c84cc7d488f833b54d0b8e7e43aed702/res/6ae668c0-3bd6-4cb0-ae45-b9faa0dca835/connector_list.png.jpg?resizeSmall&width=832)
 
-### Step 3
+<br/>
+<br/>
+
+### Step :three:
 Enter the connector name as **GitLab** and upload an icon. Save and copy your connector url (`channel_incoming_webhook_url`).
 
 ## GitLab Side
 
-### Step 1
+<br/>
+
+### Step :one:
 Go to your repo settings on GitLab and click `Integrations` section from left bar.
 Copy this link:
 https://0xjjw6j039.execute-api.us-east-1.amazonaws.com/prod/events?url=channel_incoming_webhook_url
 and change `channel_incoming_webhook_url` part with your teams url.
 Then paste it to url input area on GitLab.
 
-### Step 2
+<br/>
+<br/>
+
+### Step :two:
 Enable `Issues events`, `Merge Request events` and `SSL Verification` then save it.
 
 ![GitLab Webhook](https://www.evernote.com/shard/s672/sh/1778556c-c6ce-41af-bb4c-e526d25a3957/408dad22de893f8df13f7065a220be77/res/cd40ec98-62ac-4004-a3e0-8c3100612dad/integrations.jpg?resizeSmall&width=832 )
