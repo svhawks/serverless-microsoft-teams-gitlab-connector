@@ -66,7 +66,7 @@ functions:
           path: events
           method: post
     environment:
-      TEAMS_CONNECTOR_URL: ${opt:TEAMS_CONNECTOR_URL}
+      channel_incoming_webhook_url: ${env:channel_incoming_webhook_url}
 #      - s3: ${env:BUCKET}
 #      - schedule: rate(10 minutes)
 #      - sns: greeter-topic

@@ -10,14 +10,14 @@ module.exports.hello = (event, context, callback) => {
   const body = JSON.parse(event.body);
   let payload = services(body)
 
-  let preTeamUrl = null
+  let paramsIncomingURL = null
   if (event['queryStringParameters'] != null)
-    preTeamUrl = event['queryStringParameters']['url']
+    paramsIncomingURL = event['queryStringParameters']['url']
 
-  let teamConnectorURL = preTeamUrl || process.env.TEAMS_CONNECTOR_URL
+  let channelWebhookURL = paramsIncomingURL || process.env.channel_incoming_webhook_url
 
   if (payload){
-    request.post(teamConnectorURL, { json: payload },
+    request.post(channelWebhookURL, { json: payload },
       function (error, response, body) {
         if (!error && response.statusCode == 200) {
             console.log('Success!: ', body)
