@@ -43,7 +43,6 @@ and change `channel_incoming_webhook_url` part with your teams url.
 Then paste it to url input area on GitLab.
 
 <br/>
-<br/>
 
 ### Step :two:
 Enable `Issues events`, `Merge Request events` and `SSL Verification` then save it.
