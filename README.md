@@ -26,6 +26,7 @@ In Microsoft Teams, choose the **More options (⋯)** button next to the channel
 In the list, click **Add** for the **Incoming Webhook**.
 ![enter image description here](https://www.evernote.com/shard/s672/sh/fe974184-71d0-4ffc-bc30-2a6669d3d328/c84cc7d488f833b54d0b8e7e43aed702/res/6ae668c0-3bd6-4cb0-ae45-b9faa0dca835/connector_list.png.jpg?resizeSmall&width=832)
 
+<br/>
 
 ### Step :three:
 Enter the connector name as **GitLab** and upload an icon. Save and copy your connector url (`channel_incoming_webhook_url`).
@@ -33,8 +34,6 @@ Enter the connector name as **GitLab** and upload an icon. Save and copy your co
 
 
 ## GitLab Side
-
-<br/>
 
 ### Step :one:
 Go to your repo settings on GitLab and click `Integrations` section from left bar.
