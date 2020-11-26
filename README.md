@@ -87,7 +87,7 @@ serverles offline start
 
 
 ## Authors
-| [<img src="https://pbs.twimg.com/profile_images/508440350495485952/U1VH52UZ_200x200.jpeg" width="100px;"/>](https://twitter.com/sahinboydas)   | [Sahin Boydas](https://twitter.com/sahinboydas)<br/><br/><sub>Co-Founder @ [MojiLaLa](http://mojilala.com)</sub><br/> [![LinkedIn][1.1]][1]| [<img src="https://avatars1.githubusercontent.com/u/989759?s=460&v=4" width="100px;"/>](https://github.com/muhammet)   | [Muhammet](https://github.com/muhammet)<br/><br/><sub>Developer @ [MojiLaLa](http://mojilala.com)</sub><br/> [![Github][2.1]][2] | [<img src="https://avatars1.githubusercontent.com/u/8470005?s=460&v=4" width="100px;"/>](https://github.com/sadikay)   | [Sadik](https://github.com/sadikay)<br/><br/><sub>Developer @ [MojiLaLa](http://mojilala.com)</sub><br/> [![Github][3.1]][3]
+| [<img src="https://pbs.twimg.com/profile_images/1331045707961274368/-YifJbqn_400x400.jpg" width="100px;"/>](https://twitter.com/sahin)   | [Sahin Boydas](https://twitter.com/sahin)<br/><br/><sub>Founder @ [Remoteteam.com](https://www.remoteteam.com)</sub><br/> [![LinkedIn][1.1]][1]| [<img src="https://avatars1.githubusercontent.com/u/989759?s=460&v=4" width="100px;"/>](https://github.com/muhammet)   | [Muhammet](https://github.com/muhammet)<br/><br/><sub>Developer @ [MojiLaLa](http://mojilala.com)</sub><br/> [![Github][2.1]][2] | [<img src="https://avatars1.githubusercontent.com/u/8470005?s=460&v=4" width="100px;"/>](https://github.com/sadikay)   | [Sadik](https://github.com/sadikay)<br/><br/><sub>Developer @ [MojiLaLa](http://mojilala.com)</sub><br/> [![Github][3.1]][3]
 | - | :- | - | :- | - | :- |
 
 [1.1]: https://www.kingsfund.org.uk/themes/custom/kingsfund/dist/img/svg/sprite-icon-linkedin.svg (linkedin icon)
